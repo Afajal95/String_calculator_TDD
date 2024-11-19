@@ -14,4 +14,7 @@ describe("StringCalculator", () => {
   it("should return the sum of multiple numbers when multiple numbers are passed", () => {
     expect(stringCalculator("1,2,3")).toBe(6);
   });
+  it("should return the sum of multiple numbers when multiple numbers are passed with new lines as delimiters", () => {
+    expect(stringCalculator("1\n2,3")).toBe(6);
+  });
 });
