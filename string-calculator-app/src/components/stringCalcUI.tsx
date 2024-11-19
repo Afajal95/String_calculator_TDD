@@ -38,7 +38,7 @@ const StringCalculator: FC = () => {
           }}
           placeholder="Enter numbers (e.g., 1,2,3)"
           style={{
-            width: "100%",
+            width: "95%",
             padding: "10px",
             fontSize: "16px",
             borderRadius: "4px",

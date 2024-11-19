@@ -5,8 +5,8 @@ export default defineConfig({
   test: {
     globals: true,  // Use globals for testing
     environment: 'jsdom',  // Environment for testing
-    setupFiles: './test/setup.ts',  // Setup file
-    include: ['test/**/*.test.tsx'],  // Pattern to match test files
+    setupFiles: 'src/test/setup.ts',  // Setup file
+    include: ['src/test/**/*.test.ts*'],  // Pattern to match test files
   },
   plugins: [react()]
 });
