@@ -1,6 +1,6 @@
 export const stringCalculator = (numbers: string) => {
     if (numbers === "") return 0;
-
+     
     let delimiter = /,|\n/; // Default delimiters: comma and newline
     let customDelimiterMatch = numbers.match(/^\/\/(.+)\n/);
 
