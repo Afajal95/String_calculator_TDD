@@ -8,4 +8,7 @@ describe("StringCalculator", () => {
   it("should return the number when a single number is passed", () => {
     expect(stringCalculator("1")).toBe(1);
   });
+  it("should return the sum of two numbers when two numbers are passed", () => {
+    expect(stringCalculator("1,2")).toBe(3);
+  });
 });
